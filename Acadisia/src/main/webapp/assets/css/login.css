@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body {
+	  background: url(../images/banner-bg.png) no-repeat center center fixed;
+	  background-size: cover;
+	  min-height: 100vh;
+	  font-family: 'Raleway', sans-serif;
+	  margin: 0;
+	  padding: 0;
+	
+	  /* Centering */
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+	
+	.login-box {
+	  max-width: 400px;
+	  width: 100%;
+	  background: rgba(255, 255, 255, 0.95);
+	  padding: 30px;
+	  border-radius: 10px;
+	  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	  text-align: center;
+	}
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-box input, .login-box select {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background-color: rgb(167, 79, 255);
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: #8a15ff;
+    }
+
+    .login-box .links {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .login-box .links a {
+      color: #007BFF;
+      text-decoration: none;
+      margin: 0 10px;
+    }
